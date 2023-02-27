@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/GraphQL-Implementation/static/css/main.e8f21290.css",
+    "main.js": "/GraphQL-Implementation/static/js/main.f62edfe9.js",
+    "static/js/787.633ec28f.chunk.js": "/GraphQL-Implementation/static/js/787.633ec28f.chunk.js",
+    "index.html": "/GraphQL-Implementation/index.html",
+    "main.e8f21290.css.map": "/GraphQL-Implementation/static/css/main.e8f21290.css.map",
+    "main.f62edfe9.js.map": "/GraphQL-Implementation/static/js/main.f62edfe9.js.map",
+    "787.633ec28f.chunk.js.map": "/GraphQL-Implementation/static/js/787.633ec28f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8f21290.css",
+    "static/js/main.f62edfe9.js"
+  ]
+}
