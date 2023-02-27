@@ -1,13 +1,140 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+ 
+/* Styles for the form */
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.search {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 400px;
 }
+
+
+button {
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-color: rgba(0, 102, 255, 0.751);
+  cursor: pointer;
+}
+
+
+input[type="text"] {
+
+
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+}
+
+
+input[type="submit"] {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #28a745;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+
+input[type="submit"]:hover {
+  background-color: #218838;
+}
+
+
+/* Styles for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+ 
+}
+
+
+thead {
+  background-color: #f2f2f2;
+}
+
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+
+@media screen and (max-width: 768px) {
+  /* Adjust table styles for smaller screens */
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+
+  th,
+  td {
+    display: inline-block;
+    width: 200px;
+  }
+}
+
+
+p {
+  padding: 10px 10px;
+  background-color: rgb(215, 238, 250);
+  color: rgba(0, 102, 255, 0.751);
+  font-size: 30px;
+  font-weight: bold;
+  /* font-family: "Arial", sans-serif; */
+  margin-bottom: 20px;
+
+
+}
+
+
+.headerStyle img{
+  /* backgroundImage: `url($https://i.pinimg.com/originals/b5/1b/78/b51b78ecc9e5711274931774e433b5e6.png)`, */
+  /* background-image: url("https://i.pinimg.com/originals/b5/1b/78/b51b78ecc9e5711274931774e433b5e6.png"); */
+  background-size: "cover";
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* color: #fff;
+  font-size: 2rem;
+  font-weight: bold; */
+ 
+  text-shadow: "1px 1px 5px #000";
+  margin-bottom: 40px
+};
